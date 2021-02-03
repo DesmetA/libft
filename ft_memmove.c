@@ -6,7 +6,7 @@
 /*   By: adesmet <adesmet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/16 14:10:50 by adesmet           #+#    #+#             */
-/*   Updated: 2021/02/03 07:58:42 by adesmet          ###   ########.fr       */
+/*   Updated: 2021/02/03 10:07:51 by adesmet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	ptr = (unsigned char *)dest;
 	ptr2 = (unsigned char *)src;
 	i = -1;
-	if (ptr <= ptr2) //test for <ptr2?
+	if (ptr <= ptr2)
 	{
 		while (++i < len)
 			ptr[i] = ptr2[i];

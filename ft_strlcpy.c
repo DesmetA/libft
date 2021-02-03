@@ -6,7 +6,7 @@
 /*   By: adesmet <adesmet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/16 17:39:14 by adesmet           #+#    #+#             */
-/*   Updated: 2021/02/03 07:58:42 by adesmet          ###   ########.fr       */
+/*   Updated: 2021/02/03 14:19:09 by adesmet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	size_t	j;
 
 	j = -1;
-	if (!src || !dst) //SHouldn't protect? Check with manual, original doesn't do it 
+	if (!src)
 		return (0);
 	while (src[++j])
 		;
