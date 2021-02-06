@@ -6,7 +6,7 @@
 /*   By: adesmet <adesmet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/16 21:25:35 by adesmet           #+#    #+#             */
-/*   Updated: 2021/02/03 10:05:43 by adesmet          ###   ########.fr       */
+/*   Updated: 2021/02/05 02:36:12 by adesmet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	ft_atoi(const char *str)
 		i++;
 	if (str[i] == '+')
 		i++;
-	if (str[i] == '-')
+	else if (str[i] == '-')
 	{
 		sign = -1;
 		i++;

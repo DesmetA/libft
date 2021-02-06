@@ -6,7 +6,7 @@
 /*   By: adesmet <adesmet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/16 22:35:24 by adesmet           #+#    #+#             */
-/*   Updated: 2021/02/02 01:47:13 by adesmet          ###   ########.fr       */
+/*   Updated: 2021/02/03 15:33:27 by adesmet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,5 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	i = -1;
 	while (++i < len2)
 		ptr[i] = s[start + i];
-	ptr[i] = '\0';
 	return (ptr);
 }
