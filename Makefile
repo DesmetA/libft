@@ -6,7 +6,7 @@
 #    By: adesmet <adesmet@student.s19.be>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/02 19:04:53 by adesmet           #+#    #+#              #
-#    Updated: 2021/02/08 15:42:24 by adesmet          ###   ########.fr        #
+#    Updated: 2021/02/08 15:50:47 by adesmet          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -59,9 +59,5 @@ fclean: clean
 	rm -f ${NAME} $(OBJS_BONUS)
 
 re: fclean all
-
-so:
-	gcc -c -Wall -Werror -Wextra -fPIC ${SRC} ${SRCS_BONUS}
-	gcc -shared -o libft.so ${OBJS} ${OBJS_BONUS}
 		
 .PHONY : all clean fclean re bonus full
