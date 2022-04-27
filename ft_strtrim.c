@@ -6,7 +6,7 @@
 /*   By: adesmet <adesmet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/18 19:42:05 by adesmet           #+#    #+#             */
-/*   Updated: 2022/04/27 10:53:11 by adesmet          ###   ########.fr       */
+/*   Updated: 2022/04/27 10:57:37 by adesmet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_is_set(char *s, char c)
 	return (0);
 }
 
-char	*ft_strtrim(char *s1, char const *set)
+char	*ft_strtrim(char *s1, char *set)
 {
 	size_t	i;
 	size_t	j;
